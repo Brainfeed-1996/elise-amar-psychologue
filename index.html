@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    <div id="wrapper">
+
+        <header>
+
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html"><img id="logo1" src="./Images/logo-Elise-Amar-Psychologue-large.png" alt=""></a>
+
+                <ul id="menu">
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="">Qui suis-je </a>
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-content">
+                                <li class="sousmenu, menu"><a href="#">Thérapie</a></li>
+                                <li class="sousmenu, menu"><a href="#">Mes engagements</a></li>
+                                <li class="sousmenu, menu"><a href="#">Mon parcours</a></li>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="">Pour qui ?</a>
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-content">
+                                <li class="sousmenu, menu"><a href="#">Adolescent</a></li>
+                                <li class="sousmenu, menu"><a href="#">Thérapies individuelles</a></li>
+                                <li class="sousmenu, menu"><a href="#">Thérapie conjugales</a></li>
+                                <li class="sousmenu, menu"><a href="#">Thérapie familiales</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu"><a href="#">Le cabinet</a></li>
+                    <li class="menu"><a href="#">Blog</a></li>
+                    <li class="menu"><a href="#">Contact</a></li>
+                    <li class ="menu"><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+                </ul>
+
+            </nav>
+
+            <a href="https://www.doctolib.fr/medecin-generaliste/strasbourg/laurent-girod" style="display:block;text-align:center;background-color:#0596DE;color:#ffffff;font-size:14px;overflow:hidden;width:257px;height:40px;border-bottom-right-radius:none;border-bottom-left-radius:none;position:fixed;bottom:0;left:5px;z-index:1000;border-top-left-radius:4px;border-top-right-radius:4px;line-height:40px" target="_blank" data-reactroot=""><span style="font-size:13px">Prendre rendez-vous en ligne</span><img style="height:15px;margin-bottom:3px;vertical-align:middle;width:auto" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib"/></a>
+
+        </header>
+
+        <main>
+
+            <section class="section1">
+                <div class="contain">
+                <div class="text">
+                <h1>
+                    <span class="heading-name">Elise Amar</span> <br>
+                    <span class="text-decoration">Psychologue Clinicienne - Psychothérapeute <br>
+                    Je vous accueille à Saint-Malo et Dinard</span>
+                </h1>
+                <div class="button">
+                <button id="btn-rdv">Prendre rendez-vous</button>
+                <button id="btn-contact">Me contacter</button>
+                </div>
+            </div>                
+                <img id="img1" src="./Images/eliseamar.jpg" alt="Elise Amar, Psychologue clinicienne à Saint-Malo">
+            </div>
+            
+                
+        </section>
+        
+            <section id="section2">
+                
+                <div class="contain2">
+                    <img id="img2" src="./Images/Cuisine-famille.jpg" alt="Cuisine en famille">
+                <div class="text2">
+                    
+                <h2>Lorem ipsum dolor sit amet consectetur. Tortor tortor vel tortor eget fames.</h2>
+
+                <p>Tout individu possède la faculté de chercher un équilibre personnel tout en progressant dans sa vie, que cela concerne sa relation avec le monde, avec autrui, ou dans la gestion de ses besoins et envies.</p>
+                <p>Cependant, cette aptitude à préserver un équilibre peut être affectée par des changements majeurs dus aux différentes étapes de la vie (naissance, deuil, rupture, départ des enfants, retraite, etc.) ou par des événements traumatisants (perte d'emploi, accident, maladie, abus, agression, etc.)</p>
+            </div>        
+        </div>
+    </div>
+            </section>
+
+            <section id="section3">
+                <div class="contain3">
+                <div class="text3">
+                <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                <p>La thérapie offre la possibilité de construire un "lien" ou une "transition" vers un nouvel équilibre, qui tient compte des changements survenus dans votre vie et qui est en adéquation avec vos nouvelles ambitions. Pour vous soutenir dans ce processus, j'utilise diverses méthodes, y compris celles issues des thérapies brèves axées sur les solutions et de l'hypnose.</p>
+                </div>
+                <img id="img3" src="./Images/groupeparole.jpg" alt="Groupe de parole">
+                </div>
+            </section>
+
+            <section class="accent-text">
+                <div class="kaki">
+                    <p> 
+                    <strong>Je propose des consultations pour adolescents, adultes, couples et familles dans mes cabinets à Saint-Malo et Dinard.</strong> En outre, je suis formatrice et j'interviens occasionnellement auprès de groupes et d'équipes dans des institutions.
+                </p>
+            </div><p> 
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <div class="logo2">
+                <img id="logo" src="./Images/logo-Elise-Amar-Psychologue-carre.png" alt="">
+                <address>
+                    4 rue du Pont 35400 Saint-Malo <br>
+                    2 rue du Tertre 35093 Dinard <br>
+                    Tel : <a href="tel:0685943548">06 85 94 35 48</a>
+                </address>
+            </div>
+
+            <div class="infos">
+                <h4>Informations légales</h4>
+                <p>
+                    <a href="">Mentions légales</a> <br>
+                    <a href="">Politique de confidentialité</a> <br>
+                    N° Siret : 128 234 972 1573 <br>
+                    N° Adeli : 35 789 2467 <br>
+                </p>
+            </div>
+
+            <div class="derniers">
+                <h4>Derniers articles</h4>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet consexctetur.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet consexctetur.</a></li>
+
+                </ul>
+            </div>
+
+            <div class="btn5">
+                <button id="btn-rdv">Prendre rendez-vous en ligne</button>
+                <button id="btn-contact">Me contacter</button>
+            </div>
+
+        </footer>
+
+    </div>
+</body>
+</html>
